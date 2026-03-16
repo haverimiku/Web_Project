@@ -1,2 +1,2 @@
 # Web_Project
-Web-programming
+Web-ohjelmoinnin perusteiden harjoittelua
