@@ -17,5 +17,16 @@
         <a href="html/tyylisivuista.html">Siirry tyylisivu-sivulle</a>
     </p>
 
+    <p>Sivulla oltu sekunteina: <span id="timer">0</span></p>
+
+    <script>
+        const timerElement = document.getElementById('timer');
+        let seconds = 0;
+        setInterval(() => {
+            seconds += 1;
+            timerElement.textContent = seconds;
+        }, 1000);
+    </script>
+
 </body>
 </html>
